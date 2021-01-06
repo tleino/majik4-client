@@ -1,0 +1,13 @@
+To create necessary files:
+
+$ automake -a
+$ aclocal
+$ autoconf
+
+To create suitable Makefiles (recommended to do always after cvs checkout):
+
+$ ./configure
+
+To compile:
+
+$ make

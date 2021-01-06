@@ -1,0 +1,6 @@
+# $Id: TODO,v 1.1 1998/10/26 07:37:41 namhas Exp $
+
+- WPrtStr() needs some code to handle ^c1 color... and ^c0 should reset
+  the setting
+
+

@@ -1,0 +1,30 @@
+The development of the Majik4 is divided to 2 parts, the client and the
+server. This ChangeLog contains only the changes made to the client.
+
+A text-based client version 0.01, released on December 3, 1998: 
+  - Initial revision
+
+A text-based client version 0.02, released on December 7, 1998:
+  - Physical objects now stay on top
+  - Few optimization improvements
+  - Portability improvements
+
+A text-based client version 0.03, released on December 8, 1998:
+  - Now compiles on Solaris2.6
+  - gridmap_width and gridmap_height options added to majikrc
+  - Server now can throw the client away if too old version
+
+A text-based client version 0.04, released on December 10, 1998:
+  - Some optimization in visibility code
+  - Initial version of client side animation system
+
+A text-based client version 0.05, released on December 26, 1998:
+  - Portability fixes for AIX, now it compiles,  but.. :)
+  - Initial version of new command line editing
+  - Fixed a bug which caused '#' tiles to not block the visibility
+  - Added a check for maximum size of the gridmap
+  - Fixed a bug in text window scrolling when not using the normal size
+  - The "Password:" prompt now disappears when it should
+  - Fixed a small bug which caused ^@ - characters to appear on the map
+  - PlaceCursor() now does nothing while targetting
+  - The cursor returns to its appropriate place after animation effects

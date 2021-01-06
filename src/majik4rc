@@ -1,0 +1,16 @@
+# This is a sample majikrc file. 
+#
+# It's usually located at ~/.majikrc, but can also be installed system-wide
+
+# Majik host configuration. Change the server field to whatever the download
+# page (http://majik.netti.fi/download/) says as a server ip.
+server=majik.netti.fi
+port=7680
+
+# Gridmap window's width and height. 15x9 is the most best value for 24x80,
+# however even 20x20 is possible on larger windows...
+gridmap_width=15
+gridmap_height=9
+
+# Saves debug information about network traffic, very useful for me :> -Namhas
+protocol_debug=no

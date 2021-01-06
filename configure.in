@@ -1,0 +1,41 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(src/main.c)
+AC_CANONICAL_SYSTEM
+AM_INIT_AUTOMAKE(majik, 0.05)
+
+dnl Checks for programs.
+AC_PROG_CC
+AC_PROG_INSTALL
+
+dnl Checks for libraries.
+
+dnl Determine frontend.
+
+AC_CHECK_LIB(curses, main,,
+AC_MSG_ERROR(You don't appear to have a valid curses library.))
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS(malloc.h sys/time.h curses.h)
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_HEADER_TIME
+
+RES_LIBS=
+dnl Checks for library functions.
+AC_TYPE_SIGNAL
+AC_FUNC_VPRINTF
+AC_CHECK_FUNC(connect,,[AC_CHECK_LIB(socket,connect)])
+AC_CHECK_FUNC(gethostbyname,,[AC_CHECK_LIB(nsl,gethostbyname)])
+AC_CHECK_FUNC(inet_aton,,[AC_CHECK_LIB(resolv,inet_aton)])
+AC_SUBST(RES_LIBS)
+AC_CHECK_FUNCS(select strerror vasprintf)
+
+dnl see if we want sounds
+
+AC_ARG_ENABLE(sound,[  --enable-sound          enable annoying sound effects [default=no]],AC_DEFINE(ENABLE_SOUND),)
+AC_ARG_ENABLE(static,[  --enable-static         link against static libraries [default=no]],RES_LIBS="-static",)
+CFLAGS="$CFLAGS $RES_LIBS"
+AC_SUBST(CFLAGS)
+
+AC_OUTPUT([Makefile src/Makefile])

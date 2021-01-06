@@ -1,0 +1,28 @@
+$Id: screen2.txt,v 1.1.1.1 1998/06/21 21:58:59 namhas Exp $
+
+24x80
+
+ Y
+ 3                  The Intersection
+ 4    ..            You are standing in the middle of the Hilltop Village
+ 5     ..  %%#      central square, which acts as an intersection between
+ 6 %% ##/##%%#      all the major roads and paths in the vicinity. To your 
+ 7 ..........##     east you can spot a clean-looking inn, whose smoking
+ 8 .......@.......  chimney gives it a very cozy touch. There's also a post
+ 9 ...............  office to the north, but it does not look that popular
+10 ...........# #   considering the village is rather small. The road to your
+11 ...........#     west goes up a rather high hill, while the road southeast
+12 .........../     is genty down-sloping in nature.
+13
+14 Decay Necrophage [ooc]: uptime commandi morteille hop
+15
+16
+17
+18
+19
+20
+ 0 Namhas Str: 32 Dex: 342 Con: 553 Wis: 32 Int: 1 Cha: 12 Chaotic
+ 1 Hp: 80% Ep: 12% Sp: 0% Gold: 434 Sitasuntata: jotai muuta
+ 2 FAMISHED
+ 3 >
+ 

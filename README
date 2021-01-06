@@ -1,0 +1,101 @@
+This is a very preliminary and quick "reference card" for the Majik. This
+will be more complete if someday some nice fellow have some spare time to
+make this to be more complete. Please contact us if you are competent and
+willing enough.
+
+Keyboard shortcuts:
+!      - Say something, exit with <tab>
+>      - Go down
+<      - Go up
+o      - Open a door
+c      - Close a door
+q      - Quit the game
+7      - NUMPAD: Go northwest
+9      - NUMPAD: Go northeast
+1      - NUMPAD: Go southwest
+3      - NUMPAD: Go southeast
+8      - NUMPAD: Go north
+4      - NUMPAD: Go west
+2      - NUMPAD: Go south
+6      - NUMPAD: Go east
+y      - Go northwest
+k      - Go north
+u      - Go northeast
+h      - Go west
+l      - Go east
+b      - Go sothwest
+j      - Go south
+n      - Go southeast
+L      - Look at the objects around you
+D      - Dump object info, useful for immortals only
++      - Scroll the text in the text window forwards
+-      - Scroll the text in the text window backwards
+*      - Toggle scrolling on and off (useful when browsing backlog)
+d      - Drop something from your inventory to ground
+,      - Get something from ground
+i      - List and look the items you are carrying
+g      - Give an item from your inventory to someone nearby
+<tab>  - Toggle command-line prompt on or off
+?      - Open a help dialog
+5      - Do nothing
+w      - Wield an item from your inventory
+W      - Wear an item from your inventory
+r      - Remove a wielded or worn item
+C      - Chat with an NPC, ask about "you" for first, exit with <tab>
+S      - List your skills and their levels
+t      - Throw throwable items from your inventory
+s      - Shoot missiles with our armed missile weapon
+a      - Apply an object in your inventory
+N      - Give a name to some object
+z      - Close dialog window if any is open
+^R     - Redraw the screen
+
+Line-editing commands:
+^A     - Move to the beginning of the line
+^B     - Move back a single character
+^E     - Move to the end of the line
+^F     - Move forward a single character
+^K     - Kill from current position to the end of line
+^P     - Move back through history
+^N     - Move forward through history
+^H     - Delete the previous character
+<del>  - Same as ^H
+^D     - Delete the current character
+^R     - Redraw the line
+^L     - Same as ^R
+^U     - Kill the entire line
+^W     - Kill last word
+<lf>   - Return the entire line
+<cr>   - Same as <lf>
+
+Commands usable from command-line prompt:
+apply      blook      chat      chatto     close      cond     divine
+down       drop       eq        evoke      get        give     help
+i          name       noop      open       pos        quit     remove
+say        shoot      shout     skills     throw      up       use
+vlook      wear       who       wield
+
+Command-line commands that has not yet a shortcut alternative:
+eq     - List the items wield on worn on you
+shout  - Shout a message to larger distance than is possible by just saying
+who    - Display the number of interactive users online
+evoke  - Evoke an elemental spell
+pos    - Change your position (stand, sit, lie)
+cond   - Display the condition of your hit locations
+divine - Divine most powerful magic of all
+
+Feelings usable from command-line prompt:
+ah         blink      blush     bow       cackle      cheer    clap
+curse      eh         giggle    greet     grin        growl    grunt
+hmm        laugh      mumble    mutter    nod         ponder   scratch
+shake      smile      snicker   snort     turnback    wave     yawn
+
+A few survival tips for newbies:
+  - Do not wield weapons until necessary
+  - Do not attack anyone until you have a reason to do so
+  - Do not forgot to report all the bugs and irrelevant features
+  - Do not quit anywhere you could be slain easily
+  - Do not be stupid
+  - Do not let anyone to hit you, even one good hit can be the last one
+  - Do not forgot to name the livings you know, including yourself
+

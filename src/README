@@ -1,0 +1,21 @@
+# $Id: README,v 1.8 1998/10/12 19:07:54 dazzt Exp $
+
+README      - This file
+TODO        - A list of all things that should be done
+Makefile    - The makefile needed by make(1)
+error.c     - All error handling functions
+main.c      - The main function containing startup code
+socket.c    - All socket functions
+sysdep.c    - Most of the system dependant functions
+keyboard.c  - Keyboard handling functions
+character.c - Everything client needs to know about character
+mcp.c       - Handles all protocol commands and parsing
+gridmap.c   - All gridmap related functions
+object.c    - Object structure manipulation functions
+command.c   - All command related stuff, aliases, pre-parsing etc
+string.c    - String manipulation functions
+list.c      - Client API for opening windows
+majikrc.c   - Configuration file (majikrc) parser
+mapgen.c    - Client-side map generator
+sighand.c   - Signal handler for unexpected signals
+sound.c     - Sound functions
